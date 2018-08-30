@@ -8,7 +8,7 @@
     clear: right;
     float:none; */
     display: block;
-    position: absolute;
+    position: relative;
     top: 50%;
 }
     video{
@@ -18,7 +18,7 @@
     padding:0px;
     height: 80%;
     /* left: 15%; */
-    position: absolute;
+    position: relative;
     top: 0%; 
     width: 70%;
 }
@@ -34,7 +34,7 @@
         clear: right;
         float:none; */
         display: block;
-        position: absolute;
+        position: relative;
         top: 33%;
         width: 28%;
     }
@@ -45,7 +45,7 @@
         padding:0px;
         height: 80%;
         /* left: 15%; */
-        position: absolute;
+        position: relative;
         top: -30%; 
         width: 70%;
     }
