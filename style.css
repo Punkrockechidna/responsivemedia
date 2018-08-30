@@ -1,0 +1,52 @@
+#poppyImage{
+    float: left;
+    width: 30%;
+    height: 30%;
+}
+#poppyAudio{
+    /* clear: left;
+    clear: right;
+    float:none; */
+    display: block;
+    position: relative;
+    top: 50%;
+}
+    video{
+    /* display: block; */
+    float: right;
+    margin: 0px;
+    padding:0px;
+    height: 80%;
+    /* left: 15%; */
+    position: relative;
+    top: 0%; 
+    width: 70%;
+}
+/* Media on mobile page*/
+@media screen and (max-width: 600px) {
+    #poppyImage{
+        float: left;
+        width: 30%;
+        height: 30%;
+    }
+    #poppyAudio{
+        /* clear: left;
+        clear: right;
+        float:none; */
+        display: block;
+        position: relative;
+        top: 33%;
+        width: 28%;
+    }
+        video{
+        /* display: block; */
+        float: right;
+        margin: 0px;
+        padding:0px;
+        height: 80%;
+        /* left: 15%; */
+        position: relative;
+        top: -30%; 
+        width: 70%;
+    }
+  }
